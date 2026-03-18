@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "setup": "npm install && echo '\n✅ Dependencies installed!\n\n📋 Next steps:\n1. Create Supabase project at https://supabase.com\n2. Run SQL script: supabase-auto-setup.sql\n3. Create users (see create-supabase-users.md)\n4. Update .env with your credentials\n5. Run: npm run dev\n\nSee QUICKSTART.md for detailed instructions.\n'",
+    "create-users": "node create-users.js",
+    "verify-setup": "node verify-setup.js"
+  }
+}
